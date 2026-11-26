@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "database";
+$db = "db_warung_kripto";
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 if (!$conn) {
